@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.18-bullseye
 
 WORKDIR /go/src/github.com/globocom/secDevLabs/owasp-top10-2017-apps/a3/snake-pro/app
 
